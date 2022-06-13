@@ -1,0 +1,121 @@
+.container{
+    max-width: 1500px;
+    margin: 0 auto; /* Centralizando o conteúdo*/
+    
+}
+
+  .menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+  }
+
+  .menu-flex {
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-column {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-start;
+  }
+
+  .menu-column.menu-second-column {
+    justify-content: flex-end;
+  }
+
+  .menu-nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px; /* Vamos utilizar essa propriedade do flex para colocar um espaçamento entre os elementos*/
+  }
+
+  .menu-nav ul li a {
+    text-decoration: none;
+    color: #585e65;
+  }
+
+  .menu-link-button {
+    text-decoration: none;
+    height: 48px;
+    background-color: #4c6ef5;
+    color: #fff;
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+  .products-wrapper {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    justify-content: space-between;
+  }
+  
+.content-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    user-select: none;
+    padding: 0 8px 16px;
+    color: inherit;
+ }
+
+ .content-img > h3{
+    width: 335px;
+    height: 56px;
+    left: 151px;
+    top: 410px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* or 175% */
+
+    color: #000000;
+ }
+
+ .content-img > p{
+  
+    width: 335px;
+    height: 56px;
+    left: 151px;
+    top: 410px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* or 175% */
+
+    color: #000000;
+ }
+
+ button{
+    min-width: 164px;
+    padding: 0px 32px;    
+    border-radius: 30px;
+    width: 335px;
+    height: 48px;
+
+    font-size: 14px!important;
+    font-family: 'latoregular'!important;    
+  
+    color: #fff;
+    background: #4C6EF5;
+    border: 1.5px solid #4C6EF5;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+
